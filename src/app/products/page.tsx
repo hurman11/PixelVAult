@@ -1,9 +1,16 @@
+import { Metadata } from "next";
 import { prisma } from "@/lib/prisma";
-import { HomeClient } from "./HomeClient";
+import { ProductsPageClient } from "./ProductsPageClient";
 
 export const dynamic = "force-dynamic";
 
-export default async function HomePage() {
+export const metadata: Metadata = {
+  title: "Browse Templates — PixelVault",
+  description:
+    "Explore our collection of premium Canva templates and digital assets. Filter by category and find the perfect template for your project.",
+};
+
+export default async function ProductsPage() {
   let products: any[] = [];
   let categories: any[] = [];
 
@@ -13,18 +20,17 @@ export default async function HomePage() {
         where: { isPublished: true },
         include: { category: true },
         orderBy: { createdAt: "desc" },
-        take: 8,
       }),
       prisma.category.findMany({
         orderBy: { name: "asc" },
       }),
     ]);
   } catch (e) {
-    // DB not connected yet — render empty
+    // DB not connected
   }
 
   return (
-    <HomeClient
+    <ProductsPageClient
       products={JSON.parse(JSON.stringify(products))}
       categories={JSON.parse(JSON.stringify(categories))}
     />
