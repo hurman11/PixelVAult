@@ -11,7 +11,7 @@ export function Footer() {
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[var(--accent)] to-[var(--accent2)] flex items-center justify-center">
                 <span className="text-white font-display font-extrabold text-sm">P</span>
               </div>
-              <span className="font-display font-bold text-lg">PixelVault</span>
+              <span className="font-display font-bold text-lg">Pastels</span>
             </Link>
             <p className="text-sm text-[var(--muted)] leading-relaxed">
               Premium digital templates and creative assets for designers,
@@ -63,7 +63,7 @@ export function Footer() {
 
         <div className="border-t border-[var(--border)] mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-[var(--muted)] font-mono">
-            © {new Date().getFullYear()} PixelVault. All rights reserved.
+            © {new Date().getFullYear()} Pastels. All rights reserved.
           </p>
           <p className="text-xs text-[var(--muted)] font-mono">
             Built with ♥ for creators

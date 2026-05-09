@@ -5,7 +5,7 @@ import { ProductsPageClient } from "./ProductsPageClient";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Browse Templates — PixelVault",
+  title: "Browse Services — Pastels",
   description:
     "Explore our collection of premium Canva templates and digital assets. Filter by category and find the perfect template for your project.",
 };

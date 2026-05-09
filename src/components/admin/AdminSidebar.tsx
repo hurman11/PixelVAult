@@ -83,7 +83,7 @@ export function AdminSidebar() {
               </span>
             </div>
             <div>
-              <span className="font-display font-bold text-sm">PixelVault</span>
+              <span className="font-display font-bold text-sm">Pastels</span>
               <p className="section-label !text-[0.55rem] mt-0.5">
                 Admin Panel
               </p>
@@ -120,7 +120,7 @@ export function AdminSidebar() {
         {/* Footer */}
         <div className="p-4 border-t border-[var(--border)]">
           <p className="font-mono text-[0.6rem] text-[var(--muted)]">
-            PixelVault Admin v1.0
+            Pastels Admin v1.0
           </p>
         </div>
       </aside>

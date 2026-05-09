@@ -7,7 +7,7 @@ import { Metadata } from "next";
 import { DashboardClient } from "./DashboardClient";
 
 export const metadata: Metadata = {
-  title: "My Dashboard — PixelVault",
+  title: "My Dashboard — Pastels",
   description: "View your purchases and download your digital assets.",
 };
 

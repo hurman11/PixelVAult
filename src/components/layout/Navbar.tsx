@@ -44,7 +44,7 @@ export function Navbar() {
               <span className="text-white font-display font-extrabold text-sm">P</span>
             </div>
             <span className="font-display font-bold text-lg text-[var(--text)] group-hover:text-[var(--accent)] transition-colors">
-              PixelVault
+              Pastels
             </span>
           </Link>
 

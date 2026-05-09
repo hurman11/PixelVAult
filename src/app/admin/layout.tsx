@@ -2,7 +2,7 @@ import { AdminSidebar } from "@/components/admin/AdminSidebar";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Admin — PixelVault",
+  title: "Admin — Pastels",
   robots: "noindex, nofollow",
 };
 

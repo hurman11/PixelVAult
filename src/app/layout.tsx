@@ -6,7 +6,7 @@ import { AuthProvider } from "@/components/providers/AuthProvider";
 import { LayoutShell } from "@/components/layout/LayoutShell";
 
 export const metadata: Metadata = {
-  title: "PixelVault — Premium Digital Templates Marketplace",
+  title: "Pastels — Premium Custom Web Agency",
   description:
     "Discover and download premium Canva templates, digital assets, and creative resources. Built for creators, by creators.",
   keywords: ["digital marketplace", "canva templates", "digital assets", "design templates"],

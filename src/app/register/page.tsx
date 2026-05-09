@@ -90,7 +90,7 @@ export default function RegisterPage() {
               Create Account
             </h1>
             <p className="text-[var(--muted)] text-sm mt-2">
-              Join PixelVault and start downloading premium templates
+              Join Pastels and start building premium websites
             </p>
           </div>
 

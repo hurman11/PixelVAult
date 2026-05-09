@@ -10,7 +10,7 @@ interface Props {
 }
 
 export const metadata: Metadata = {
-  title: "Checkout — PixelVault",
+  title: "Checkout — Pastels",
   description: "Complete your purchase securely via Safepay.",
 };
 

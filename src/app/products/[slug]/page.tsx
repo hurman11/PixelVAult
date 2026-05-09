@@ -19,11 +19,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   } catch (e) {}
 
   if (!product) {
-    return { title: "Product Not Found — PixelVault" };
+    return { title: "Product Not Found — Pastels" };
   }
 
   return {
-    title: `${product.name} — PixelVault`,
+    title: `${product.name} — Pastels`,
     description: product.description,
   };
 }

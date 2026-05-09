@@ -183,7 +183,7 @@ export function HomeClient({ products, categories }: HomeClientProps) {
                 Ready to level up your designs?
               </h2>
               <p className="text-[var(--muted)] mb-8 max-w-md mx-auto">
-                Join hundreds of creators who use PixelVault templates to save
+                Join hundreds of clients who use Pastels to build their dream websites
                 time and create stunning content.
               </p>
               <Link href="/products" className="btn-primary !py-3 !px-8 text-base">
