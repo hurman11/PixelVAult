@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   description:
     "Discover and download premium Canva templates, digital assets, and creative resources. Built for creators, by creators.",
   keywords: ["digital marketplace", "canva templates", "digital assets", "design templates"],
+  verification: {
+    google: "XSW42jW1erfWD-DehQKbNZdob0t32tAX7mmS5kmFAEA",
+  },
 };
 
 export default function RootLayout({
