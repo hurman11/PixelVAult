@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Discover and download premium Canva templates, digital assets, and creative resources. Built for creators, by creators.",
   keywords: ["digital marketplace", "canva templates", "digital assets", "design templates"],
   verification: {
-    google: "XSW42jW1erfWD-DehQKbNZdob0t32tAX7mmS5kmFAEA",
+    google: "zZPf4AVfpNbp01K8F9N9xPRpuUSD7FCrg3Upss8nTEA",
   },
 };
 
